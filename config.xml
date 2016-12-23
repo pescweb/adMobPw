@@ -102,5 +102,5 @@
     <preference name="phonegap-version" value="cli-6.3.0" />
     <engine name="ios" spec="~4.1.1" />
     <preference name="android-build-tool" value="gradle" /> 
-<gap:plugin name="cordova-plugin-admob" source="npm" />
+<gap:plugin name="phonegap-admob" source="npm"/>
 </widget>
