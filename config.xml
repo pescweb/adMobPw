@@ -104,7 +104,6 @@
     <preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="phonegap-admob" source="npm"/>
     <plugin name="cordova-admob" source="npm"/>
-  <plugin name="com.analytics.google" source="pgb"/>
   <plugin name="pushwoosh-pgb-plugin" source="npm"/>
   <plugin name="nl.x-services.plugins.socialsharing" source="pgb"/>
   
