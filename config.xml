@@ -115,9 +115,9 @@
     <engine name="ios" spec="~4.1.1" />
     <preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="phonegap-admob" source="npm"/>
-    <plugin name="cordova-admob" source="npm"/>
+    <!--<plugin name="cordova-admob" source="npm"/>-->
   <plugin name="pushwoosh-pgb-plugin" source="npm"/>
-    <gap:plugin name="cordova-plugin-crosswalk-webview" version="~2.2.0" source="npm"/>
+   <gap:plugin name="cordova-plugin-crosswalk-webview" version="~2.2.0" source="npm"/>
 <gap:plugin name="com.devicepush.cordova-phonegap" source="npm" version="~0.3.8"/>
 <gap:plugin name="com.adobe.plugins.gaplugin" source="npm" version="~2.4.0"/>
     
