@@ -19,7 +19,7 @@
   <preference name="detect-data-types" value="true"/>
   <preference name="exit-on-suspend" value="false"/>
   <preference name="disable-cursor" value="false"/>
-  <preference name="android-installLocation" value="auto"/>
+  
     <access origin="http://127.0.0.1*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
