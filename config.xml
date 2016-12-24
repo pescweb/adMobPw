@@ -105,6 +105,5 @@
     <gap:plugin name="phonegap-admob" source="npm"/>
     <plugin name="cordova-admob" source="npm"/>
   <plugin name="pushwoosh-pgb-plugin" source="npm"/>
-  <plugin name="nl.x-services.plugins.socialsharing" source="pgb"/>
-  
+    
 </widget>
