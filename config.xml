@@ -112,7 +112,7 @@
     <preference name="FadeSplashScreenDuration" value="300" />
     <engine name="android" spec="~4.1.1" />
     <preference name="phonegap-version" value="cli-6.3.0" />
-    <plugin name="com.admob.google" spec="4.0.8" source="pgb" />
+    <gap:plugin name="com.admob.google" source="npm" />
     <engine name="ios" spec="~4.1.1" />
     
     
