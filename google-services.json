@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "106308727128",
+    "firebase_url": "https://projeto-tocar-itinerante.firebaseio.com",
+    "project_id": "projeto-tocar-itinerante",
+    "storage_bucket": "projeto-tocar-itinerante.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106308727128:android:982e4f2ec5b81103",
+        "android_client_info": {
+          "package_name": "com.yet.projetotocaritinerante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106308727128-q5c1k4rhjmfintilastbguc6ae7qgajn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe7QbzxLOL8nLL__XbyhF77hETL-ZLXlc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
