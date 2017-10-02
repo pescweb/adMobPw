@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.camacaritur" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.camacaritur" version="1.3.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>admob-PW-ionic</name>
     <description>
         Teste para admob.
@@ -102,25 +102,27 @@
         <icon height="360" platform="windows" src="res/icon/windows/Wide310x150Logo.scale-240.png" width="744" />
         <splash height="1920" platform="windows" src="res/screen/windows/SplashScreenPhone.scale-240.png" width="1152" />
     </platform>
-    <preference name="DisallowOverscroll" value="true" />
-    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
-    <plugin name="cordova-plugin-console" spec="~1.0.3" />
-    <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
-    <preference name="StatusBarStyle" value="default" />
-    <plugin name="cordova-plugin-media" spec="~2.3.0" />
-    <plugin name="cordova-plugin-splashscreen" spec="~3.1.0" />
-    <preference name="FadeSplashScreenDuration" value="300" />
-    <engine name="android" spec="~4.1.1" />
-    <preference name="phonegap-version" value="cli-6.3.0" />
-    <!--<gap:plugin name="com.admob.google" source="npm" />-->
-    <gap:plugin name="com-admob-plugin" version="5.5.0" source="npm"/>
-    <engine name="ios" spec="~4.1.1" />
-    
-    
+  
     <!--<plugin name="cordova-admob" source="npm"/>
   <plugin name="pushwoosh-pgb-plugin" source="npm"/>
    <gap:plugin name="cordova-plugin-crosswalk-webview" version="~2.2.0" source="npm"/>
 <gap:plugin name="com.devicepush.cordova-phonegap" source="npm" version="~0.3.8"/>
 <gap:plugin name="com.adobe.plugins.gaplugin" source="npm" version="~2.4.0"/>-->
+
+    <preference name="DisallowOverscroll" value="true" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
+    <plugin name="cordova-plugin-console" spec="~1.0.3" />
+    <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <preference name="StatusBarStyle" value="default" />
+    <plugin name="cordova-plugin-media" spec="~2.3.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="~3.1.0" />
     
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <engine name="android" spec="~4.1.1" />
+    <engine name="ios" spec="^4.0.0" />
+    <engine name="windows" spec="~4.1.0"/>
+    <preference name="phonegap-version" value="cli-6.5.0" />  
+     <!--<gap:plugin name="com.admob.google" source="npm" />-->
+    <gap:plugin name="com-admob-plugin" version="5.5.0" source="npm"/>
+    <engine name="ios" spec="~4.1.1" />
 </widget>
